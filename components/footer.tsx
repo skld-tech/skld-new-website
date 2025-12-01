@@ -58,6 +58,33 @@ export function Footer() {
 
             <div className="flex flex-col space-y-2">
               <Link
+                href="/privacy"
+                className="text-gray-300 hover:text-white transition-colors text-sm"
+              >
+                Privacy Policy
+              </Link>
+              <Link
+                href="/quality-policy"
+                className="text-gray-300 hover:text-white transition-colors text-sm"
+              >
+                Quality Policy
+              </Link>
+              <Link
+                href="/cookies"
+                className="text-gray-300 hover:text-white transition-colors text-sm"
+              >
+                Cookies
+              </Link>
+              <Link
+                href="/gallery"
+                className="text-gray-300 hover:text-white transition-colors text-sm"
+              >
+                Gallery
+              </Link>
+            </div>
+
+            <div className="flex flex-col space-y-2">
+              <Link
                 href="https://www.facebook.com/share/17hP2z3FAV/?mibextid=wwXIfr"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -84,7 +111,7 @@ export function Footer() {
                 <Linkedin className="w-4 h-4" />
                 <span>LinkedIn</span>
               </Link>
-              <Link
+              {/* <Link
                 href="https://x.com"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -92,34 +119,7 @@ export function Footer() {
               >
                 <Twitter className="w-4 h-4" />
                 <span>Twitter(X)</span>
-              </Link>
-            </div>
-
-            <div className="flex flex-col space-y-2">
-              <Link
-                href="/privacy"
-                className="text-gray-300 hover:text-white transition-colors text-sm"
-              >
-                Privacy Policy
-              </Link>
-              <Link
-                href="/quality-policy"
-                className="text-gray-300 hover:text-white transition-colors text-sm"
-              >
-                Quality Policy
-              </Link>
-              <Link
-                href="/cookies"
-                className="text-gray-300 hover:text-white transition-colors text-sm"
-              >
-                Cookies
-              </Link>
-              <Link
-                href="/gallery"
-                className="text-gray-300 hover:text-white transition-colors text-sm"
-              >
-                Gallery
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>

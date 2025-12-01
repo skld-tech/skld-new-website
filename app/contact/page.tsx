@@ -482,11 +482,11 @@ export default function ContactPage() {
                           url: "https://www.linkedin.com/company/skld/",
                           label: "LinkedIn",
                         },
-                        {
-                          icon: Twitter,
-                          url: "https://x.com",
-                          label: "Twitter",
-                        },
+                        // {
+                        //   icon: Twitter,
+                        //   url: "https://x.com",
+                        //   label: "Twitter",
+                        // },
                       ].map((social, index) => (
                         <motion.a
                           key={index}
