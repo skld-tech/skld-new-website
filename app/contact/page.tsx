@@ -467,14 +467,33 @@ export default function ContactPage() {
                     <p className="font-semibold mb-4">Social Media</p>
                     <div className="flex gap-4">
                       {[
-                        { icon: Instagram },
-                        { icon: Facebook },
-                        { icon: Linkedin },
-                        { icon: Twitter },
+                        {
+                          icon: Instagram,
+                          url: "https://www.instagram.com/skldintegratedservices?igsh=MTlocW80ZGxxODBmcg%3D%3D&utm_source=qr",
+                          label: "Instagram",
+                        },
+                        {
+                          icon: Facebook,
+                          url: "https://www.facebook.com/share/17hP2z3FAV/?mibextid=wwXIfr",
+                          label: "Facebook",
+                        },
+                        {
+                          icon: Linkedin,
+                          url: "https://www.linkedin.com/company/skld/",
+                          label: "LinkedIn",
+                        },
+                        {
+                          icon: Twitter,
+                          url: "https://x.com",
+                          label: "Twitter",
+                        },
                       ].map((social, index) => (
                         <motion.a
                           key={index}
-                          href="#"
+                          href={social.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          aria-label={social.label}
                           className="flex items-center justify-center p-4 bg-gray-900 border border-gray-800 hover:border-gray-600 hover:bg-gray-800 transition-colors group"
                           whileHover={{ scale: 1.05 }}
                           whileTap={{ scale: 0.95 }}

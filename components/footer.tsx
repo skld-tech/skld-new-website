@@ -58,7 +58,7 @@ export function Footer() {
 
             <div className="flex flex-col space-y-2">
               <Link
-                href="https://facebook.com"
+                href="https://www.facebook.com/share/17hP2z3FAV/?mibextid=wwXIfr"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center space-x-2 text-gray-300 hover:text-white transition-colors text-sm"
@@ -67,7 +67,7 @@ export function Footer() {
                 <span>Facebook</span>
               </Link>
               <Link
-                href="https://instagram.com"
+                href="https://www.instagram.com/skldintegratedservices?igsh=MTlocW80ZGxxODBmcg%3D%3D&utm_source=qr"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center space-x-2 text-gray-300 hover:text-white transition-colors text-sm"
@@ -76,7 +76,7 @@ export function Footer() {
                 <span>Instagram</span>
               </Link>
               <Link
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/company/skld/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center space-x-2 text-gray-300 hover:text-white transition-colors text-sm"
@@ -85,7 +85,7 @@ export function Footer() {
                 <span>LinkedIn</span>
               </Link>
               <Link
-                href="https://twitter.com"
+                href="https://x.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center space-x-2 text-gray-300 hover:text-white transition-colors text-sm"
